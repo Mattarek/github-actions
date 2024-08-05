@@ -27,5 +27,8 @@ jobs:
             - name: Test code
               run: npm test
 
+            - name: Build project
+              run: npm run build
+
             - name: Greeting
               run: echo "Brawo! Znakomita robota!"
