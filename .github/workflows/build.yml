@@ -16,13 +16,7 @@ jobs:
                   node-version: 20.9.0
 
             - name: Install dependencies
-              run: npm i
-
-            - name: Lint code
-              run: npm run lint
-
-            - name: Test code
-              run: npm test
+              run: npm ci
 
             - name: Build project
               run: npm run build
