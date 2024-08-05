@@ -24,8 +24,8 @@ jobs:
             - name: Lint code
               run: npm run lint
 
-            - name: Build project
-              run: npm run build
+            - name: dev project
+              run: npm run dev
 
             - name: Greeting
               run: echo "Brawo! Znakomita robota!"
